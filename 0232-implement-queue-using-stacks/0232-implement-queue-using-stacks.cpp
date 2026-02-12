@@ -18,9 +18,10 @@ public:
                 stack1.pop();
             }
         }
-        int front = stack2.top();
+        //int front = stack2.top();
+        //stack2.pop();
+        return stack2.top();
         stack2.pop();
-        return front;
     }
     
     int peek() {
